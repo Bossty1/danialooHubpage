@@ -148,6 +148,7 @@ const Index = () => {
           </div>
         </section>
 
+
         {/* My Projects Section */}
         <section className="mb-16 animate-fade-in" style={{ animationDelay: "0.35s" }}>
           <h2 className="font-display text-4xl font-semibold text-center mb-8 text-foreground">
