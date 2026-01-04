@@ -128,6 +128,24 @@ const Index = () => {
           </div>
         </section>
 
+        {/* Payment Platform */}
+        <section className="animate-fade-in" style={{ animationDelay: "0.8s" }}>
+          <h2 className="font-display text-2xl font-semibold text-center mb-8 text-foreground">
+            <span className="text-secondary glow-text-pink">{t("paymentSolutions")}</span>
+          </h2>
+          <div className="flex justify-center">
+            <a
+              href="https://wap.redotpay.com/en/invite/?referralId=heb8p"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-cyber-pink flex items-center gap-3 text-lg"
+            >
+              <RedotPayIcon className="w-6 h-6" />
+              <span>RedotPay</span>
+            </a>
+          </div>
+        </section>
+
         {/* My Projects Section */}
         <section className="mb-16 animate-fade-in" style={{ animationDelay: "0.35s" }}>
           <h2 className="font-display text-4xl font-semibold text-center mb-8 text-foreground">
