@@ -142,7 +142,7 @@ const Index = () => {
               rel="noopener noreferrer"
               className="btn-cyber-pink flex items-center gap-3 text-lg"
             >
-              <RedotPayIcon className="w-6 h-6" />
+              <RedotPayIcon className="w-7 h-7" />
               <span>RedotPay</span>
             </a>
           </div>
