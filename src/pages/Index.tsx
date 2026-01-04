@@ -31,35 +31,35 @@ const Index = () => {
   const { t, isRTL } = useLanguage();
 
   const socialLinks = [
-    { href: "https://www.tiktok.com/@danialoo5", icon: <TikTokIcon className="w-6 h-6" />, label: "TikTok", color: "secondary" as const },
-    { href: "https://youtube.com/@danialoocrypto", icon: <YouTubeIcon className="w-6 h-6" />, label: "YouTube", color: "primary" as const },
-    { href: "https://t.me/danialoocrypto", icon: <TelegramIcon className="w-6 h-6" />, label: "Telegram", color: "primary" as const },
+    { key: "tiktok", href: "https://www.tiktok.com/@danialoo5", icon: <TikTokIcon className="w-6 h-6" />, label: "TikTok", color: "secondary" as const },
+    { key: "youtube", href: "https://youtube.com/@danialoocrypto", icon: <YouTubeIcon className="w-6 h-6" />, label: "YouTube", color: "primary" as const },
+    { key: "telegram", href: "https://t.me/danialoocrypto", icon: <TelegramIcon className="w-6 h-6" />, label: "Telegram", color: "primary" as const },
   ];
 
   const comingSoonLinks = [
-    { icon: <InstagramIcon className="w-6 h-6" />, label: "Instagram" },
-    { icon: <XTwitterIcon className="w-6 h-6" />, label: "X (Twitter)" },
-    { icon: <DiscordIcon className="w-6 h-6" />, label: "Discord" },
+    { key: "instagram", icon: <InstagramIcon className="w-6 h-6" />, label: "Instagram" },
+    { key: "twitter", icon: <XTwitterIcon className="w-6 h-6" />, label: "X (Twitter)" },
+    { key: "discord", icon: <DiscordIcon className="w-6 h-6" />, label: "Discord" },
   ];
 
   const partners = [
-    { href: "https://www.mexc.com/acquisition/custom-sign-up?shareCode=mexc-2rEsx", name: "MEXC", description: t("mexcDesc"), iconUrl: partnerLogos.mexc },
-    { href: "https://www.gate.com/signup?ref_type=103&ref=UQARAF9X", name: "Gate.io", description: t("gateDesc"), iconUrl: partnerLogos.gate },
-    { href: "https://accounts.binance.com/ar/register?ref=YL1K0MEE", name: "Binance", description: t("binanceDesc"), iconUrl: partnerLogos.binance },
-    { href: "https://100tokensacademy.site/", name: "100 Tokens Academy", description: t("academyDesc"), icon: <PaidCoursesIcon className="w-6 h-6" /> },
-    { href: "https://bnb-smart-contract-builder.vercel.app/", name: "BNB Smart Contract", description: t("smartContractDesc"), icon: <SmartContractIcon className="w-6 h-6" /> },
+    { key: "mexc", href: "https://www.mexc.com/acquisition/custom-sign-up?shareCode=mexc-2rEsx", name: "MEXC", description: t("mexcDesc"), iconUrl: partnerLogos.mexc },
+    { key: "gate", href: "https://www.gate.com/signup?ref_type=103&ref=UQARAF9X", name: "Gate.io", description: t("gateDesc"), iconUrl: partnerLogos.gate },
+    { key: "binance", href: "https://accounts.binance.com/ar/register?ref=YL1K0MEE", name: "Binance", description: t("binanceDesc"), iconUrl: partnerLogos.binance },
+    { key: "academy", href: "https://100tokensacademy.site/", name: "100 Tokens Academy", description: t("academyDesc"), icon: <PaidCoursesIcon className="w-6 h-6" /> },
+    { key: "smartcontract", href: "https://bnb-smart-contract-builder.vercel.app/", name: "BNB Smart Contract", description: t("smartContractDesc"), icon: <SmartContractIcon className="w-6 h-6" /> },
   ];
 
   const tools = [
-    { href: "https://sol-cleaner.com/?ref=K2fS25GG_", name: "Sol Cleaner", description: t("solCleanerDesc"), icon: <Sparkles className="w-6 h-6" /> },
-    { href: "https://app.telemetry.io/@91fib", name: "Telemetry", description: t("telemetryDesc"), icon: <BarChart3 className="w-6 h-6" /> },
-    { href: "https://t.me/BlumCryptoTradingBot?start=FckH4EeI5m", name: "Blum Trading Bot", description: t("blumDesc"), icon: <Bot className="w-6 h-6" /> },
-    { href: "https://cryptobubbles.net/", name: "Crypto Bubbles", description: t("bubblesDesc"), icon: <CryptoBubblesIcon className="w-6 h-6" /> },
+    { key: "solcleaner", href: "https://sol-cleaner.com/?ref=K2fS25GG_", name: "Sol Cleaner", description: t("solCleanerDesc"), icon: <Sparkles className="w-6 h-6" /> },
+    { key: "telemetry", href: "https://app.telemetry.io/@91fib", name: "Telemetry", description: t("telemetryDesc"), icon: <BarChart3 className="w-6 h-6" /> },
+    { key: "blum", href: "https://t.me/BlumCryptoTradingBot?start=FckH4EeI5m", name: "Blum Trading Bot", description: t("blumDesc"), icon: <Bot className="w-6 h-6" /> },
+    { key: "bubbles", href: "https://cryptobubbles.net/", name: "Crypto Bubbles", description: t("bubblesDesc"), icon: <CryptoBubblesIcon className="w-6 h-6" /> },
   ];
 
   const projects = [
-    { href: "https://100tokensacademy.site/", name: "100Academy", description: "المنصة الرئيسية لعملة 100", iconUrl: "https://i.ibb.co/W4Z1tF48/Academy-Logo.png" },
-    { href: "https://www.100presale.site/", name: "Academy BSC Presale", description: "أكتتاب عملة 100 أكاديمي ", iconUrl: "https://i.ibb.co/mFvZy9XD/Screenshot-2025-12-29-150002.jpg" },
+    { key: "academy", href: "https://100tokensacademy.site/", name: "100Academy", description: "المنصة الرئيسية لعملة 100", iconUrl: "https://i.ibb.co/W4Z1tF48/Academy-Logo.png" },
+    { key: "presale", href: "https://www.100presale.site/", name: "Academy BSC Presale", description: "أكتتاب عملة 100 أكاديمي ", iconUrl: "https://i.ibb.co/mFvZy9XD/Screenshot-2025-12-29-150002.jpg" },
   ];
 
   return (
@@ -101,12 +101,14 @@ const Index = () => {
             {t("connectWithMe")}
           </h2>
           <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
-            {socialLinks.map((link) => (
-              <SocialLink key={link.label} {...link} />
-            ))}
-            {comingSoonLinks.map((link) => (
-              <ComingSoonLink key={link.label} {...link} />
-            ))}
+            {socialLinks.map((link) => {
+              const { key, ...props } = link;
+              return <SocialLink key={key} {...props} />;
+            })}
+            {comingSoonLinks.map((link) => {
+              const { key, ...props } = link;
+              return <ComingSoonLink key={key} {...props} />;
+            })}
           </div>
         </section>
 
@@ -152,9 +154,10 @@ const Index = () => {
             <span className="text-secondary glow-text-pink">مشاريعي</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
-            {projects.map((project) => (
-              <PartnerCard key={project.name} {...project} />
-            ))}
+            {projects.map((project) => {
+              const { key, ...props } = project;
+              return <PartnerCard key={key} {...props} />;
+            })}
           </div>
         </section>
 
@@ -164,9 +167,10 @@ const Index = () => {
             <span className="text-secondary glow-text-pink">{t("myPartners")}</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
-            {partners.map((partner) => (
-              <PartnerCard key={partner.name} {...partner} />
-            ))}
+            {partners.map((partner) => {
+              const { key, ...props } = partner;
+              return <PartnerCard key={key} {...props} />;
+            })}
           </div>
         </section>
 
@@ -176,9 +180,10 @@ const Index = () => {
             <span className="text-primary glow-text">{t("cryptoTools")}</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
-            {tools.map((tool) => (
-              <PartnerCard key={tool.name} {...tool} />
-            ))}
+            {tools.map((tool) => {
+              const { key, ...props } = tool;
+              return <PartnerCard key={key} {...props} />;
+            })}
           </div>
         </section>
 
