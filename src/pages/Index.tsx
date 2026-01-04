@@ -122,7 +122,7 @@ const Index = () => {
               href="https://t.me/danialoocrypto/2927"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-cyber flex items-center gap-3 text-lg px-8 py-4"
+              className="btn-cyber flex items-center gap-5 text-lg px-8 py-4"
             >
               <PaidCoursesIcon className="w-7 h-7" />
               <span>{t("accessPremiumCourses")}</span>
