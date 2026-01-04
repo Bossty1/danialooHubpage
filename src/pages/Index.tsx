@@ -131,7 +131,7 @@ const Index = () => {
         </section>
 
         {/* Payment Platform */}
-        <section className="animate-fade-in" style={{ animationDelay: "0.8s" }}>
+        <section className="mb-16 animate-fade-in" style={{ animationDelay: "0.8s" }}>
           <h2 className="font-display text-2xl font-semibold text-center mb-8 text-foreground">
             <span className="text-secondary glow-text-pink">{t("paymentSolutions")}</span>
           </h2>

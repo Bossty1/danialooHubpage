@@ -28,7 +28,7 @@ const translations: Translations = {
   telemetryDesc: { ar: "تتبع محفظتك", en: "Track your crypto portfolio" },
   blumDesc: { ar: "تداول آلي للكريبتو", en: "Automated crypto trading" },
   bubblesDesc: { ar: "تصور حركة السوق", en: "Visualize crypto market movements" },
-  MyProjects: { ar: "مشاريعي", en: "My Projects" }
+  myProjects: { ar: "مشاريعي", en: "My Projects" },
 };
 
 interface LanguageContextType {
