@@ -59,7 +59,7 @@ const Index = () => {
 
   const projects = [
     { key: "academy", href: "https://100tokensacademy.site/", name: "100Academy", description: "المنصة الرئيسية لعملة 100", iconUrl: "https://i.ibb.co/W4Z1tF48/Academy-Logo.png" },
-    { key: "presale", href: "https://www.thena.online/", name: "Academy BSC Presale", description: "عملة ثينا Thena Netwrok", iconUrl: "https://i.ibb.co/LD6yLbPy/Thena-ogo-7-png.png" },
+    { key: "presale", href: "https://www.thena.online/", name: "Thena Media Network", description: "عملة ثينا", iconUrl: "https://i.ibb.co/LD6yLbPy/Thena-ogo-7-png.png" },
   ];
 
   return (
