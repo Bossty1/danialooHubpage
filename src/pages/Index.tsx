@@ -1,4 +1,7 @@
 import profileImage from "@/assets/danialoo-profile.jpg";
+import cryptoBg from "@/assets/crypto-bg.jpg";
+import redotPayCard from "@/assets/redotpay-card.png";
+import danialooLabLogo from "@/assets/danialoo-lab-logo.jpeg";
 import SocialLink from "@/components/SocialLink";
 import PartnerCard from "@/components/PartnerCard";
 import ComingSoonLink from "@/components/ComingSoonLink";
@@ -64,6 +67,11 @@ const Index = () => {
 
   return (
     <div className={`min-h-screen bg-background cyber-grid relative overflow-hidden ${isRTL ? "rtl" : "ltr"}`} dir={isRTL ? "rtl" : "ltr"}>
+      {/* Crypto background image */}
+      <div className="fixed inset-0 z-0" aria-hidden="true">
+        <img src={cryptoBg} alt="" className="w-full h-full object-cover opacity-25" />
+      </div>
+
       {/* Language Switcher */}
       <LanguageSwitcher />
 
@@ -94,6 +102,27 @@ const Index = () => {
             {t("cryptoInfluencer")}
           </p>
         </header>
+
+        {/* Danialoo Crypto Lab Section */}
+        <section className="mb-16 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+          <div className="flex justify-center">
+            <a
+              href="https://t.me/DanialooLab"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card-cyber flex flex-col items-center gap-4 p-8 max-w-md w-full text-center group"
+            >
+              <img src={danialooLabLogo} alt="Danialoo Crypto Lab" className="w-24 h-24 rounded-xl object-cover" />
+              <h2 className="font-display text-2xl font-bold text-foreground group-hover:text-primary transition-colors">
+                Danialoo Crypto Lab
+              </h2>
+              <p className="text-muted-foreground text-sm">
+                {isRTL ? "حيث نطبخ مشاريعنا الكبيرة الجديدة 🔥" : "Where we cook our new big projects 🔥"}
+              </p>
+              <span className="btn-cyber px-6 py-2 text-sm">{isRTL ? "انضم الآن" : "Join Now"}</span>
+            </a>
+          </div>
+        </section>
 
         {/* Social Media Links */}
         <section className="mb-16 animate-fade-in" style={{ animationDelay: "0.2s" }}>
@@ -174,10 +203,10 @@ const Index = () => {
               href="https://wap.redotpay.com/en/invite/?referralId=heb8p"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-cyber-pink flex items-center gap-3 text-lg"
+              className="btn-cyber-pink flex items-center gap-4 text-xl px-10 py-5"
             >
-              <RedotPayIcon className="w-6 h-6" />
-              <span>RedotPay</span>
+              <img src={redotPayCard} alt="RedotPay" className="w-16 h-10 object-contain rounded" />
+              <span className="font-bold">RedotPay</span>
             </a>
           </div>
         </section>
