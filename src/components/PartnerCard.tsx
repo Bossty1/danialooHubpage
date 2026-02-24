@@ -6,9 +6,10 @@ interface PartnerCardProps {
   description: string;
   icon?: ReactNode;
   iconUrl?: string;
+  imageClassName?: string;
 }
 
-const PartnerCard = ({ href, name, description, icon, iconUrl }: PartnerCardProps) => {
+const PartnerCard = ({ href, name, description, icon, iconUrl, imageClassName }: PartnerCardProps) => {
   return (
     <a
       href={href}
@@ -18,7 +19,7 @@ const PartnerCard = ({ href, name, description, icon, iconUrl }: PartnerCardProp
     >
       <div className="flex items-start gap-4">
         {iconUrl ? (
-          <img src={iconUrl} alt={name} className="w-8 h-8 object-contain rounded" />
+          <img src={iconUrl} alt={name} className={imageClassName ?? "w-8 h-8 object-contain rounded"} />
         ) : icon ? (
           <span className="text-3xl text-primary">{icon}</span>
         ) : null}

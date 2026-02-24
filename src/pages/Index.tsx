@@ -164,7 +164,11 @@ const Index = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
             {projects.map((project) => (
-              <PartnerCard key={project.name} {...project} />
+              <PartnerCard
+                key={project.name}
+                {...project}
+                imageClassName="w-20 h-20 md:w-24 md:h-24 object-cover rounded-xl"
+              />
             ))}
           </div>
         </section>
