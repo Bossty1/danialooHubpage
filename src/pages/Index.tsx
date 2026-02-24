@@ -167,7 +167,8 @@ const Index = () => {
               <PartnerCard
                 key={project.name}
                 {...project}
-                imageClassName="w-20 h-20 md:w-24 md:h-24 object-cover rounded-xl"
+                imageClassName="w-28 h-28 md:w-32 md:h-32 object-cover rounded-xl"
+                descriptionClassName="text-black text-sm mt-1"
               />
             ))}
           </div>

@@ -7,9 +7,10 @@ interface PartnerCardProps {
   icon?: ReactNode;
   iconUrl?: string;
   imageClassName?: string;
+  descriptionClassName?: string;
 }
 
-const PartnerCard = ({ href, name, description, icon, iconUrl, imageClassName }: PartnerCardProps) => {
+const PartnerCard = ({ href, name, description, icon, iconUrl, imageClassName, descriptionClassName }: PartnerCardProps) => {
   return (
     <a
       href={href}
@@ -27,7 +28,7 @@ const PartnerCard = ({ href, name, description, icon, iconUrl, imageClassName }:
           <h3 className="font-display text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
             {name}
           </h3>
-          <p className="text-sm text-muted-foreground mt-1">{description}</p>
+          <p className={descriptionClassName ?? "text-sm text-muted-foreground mt-1"}>{description}</p>
         </div>
         <svg
           className="w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all"
