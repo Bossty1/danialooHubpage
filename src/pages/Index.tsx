@@ -75,6 +75,17 @@ const Index = () => {
       {/* Language Switcher */}
       <LanguageSwitcher />
 
+      {/* Fixed RedotPay icon top-left */}
+      <a
+        href="https://wap.redotpay.com/en/invite/?referralId=heb8p"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed top-4 left-4 z-50 flex items-center gap-3 p-2 bg-white/90 dark:bg-black/80 border border-border/30 rounded-lg shadow-md hover:scale-105 transition-transform"
+      >
+        <img src={redotPayCard} alt="RedotPay" className="w-10 h-10 object-contain rounded" />
+        <span className="hidden sm:inline font-semibold text-sm">RedotPay</span>
+      </a>
+
       {/* Background effects */}
       <div className="fixed inset-0 pointer-events-none">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-[150px] animate-pulse-glow" />
