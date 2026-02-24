@@ -58,8 +58,8 @@ const Index = () => {
   ];
 
   const projects = [
-    { href: "https://www.vtmarkets.com/introducing-brokers/?affid=7446833, name: "DANIALOO MT5", description: "تداول الذهب و الفضة على منصة موثوقه", iconUrl: "https://ibb.co/p6BJqs4J" },
-    { href: "https://www.100presale.site/", name: "Academy BSC Presale", description: "أكتتاب عملة 100 أكاديمي ", iconUrl: "https://i.ibb.co/mFvZy9XD/Screenshot-2025-12-29-150002.jpg" },
+    { href: "https://100tokensacademy.site/", name: "100Academy", description: "المنصة الرئيسية لعملة 100", iconUrl: "https://i.ibb.co/W4Z1tF48/Academy-Logo.png" },
+    { href: "https://www.vtmarkets.com/introducing-brokers/?affid=7446833, name: "DANIALOO MT5", description: "تداول الذهب و الفضة مع وكيل موثوق MT5", iconUrl: "https://ibb.co/p6BJqs4J" },
   ];
 
   return (
