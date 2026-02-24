@@ -80,9 +80,9 @@ const Index = () => {
         href="https://wap.redotpay.com/en/invite/?referralId=heb8p"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed top-4 left-4 z-50 flex items-center gap-3 p-2 bg-white/90 dark:bg-black/80 border border-border/30 rounded-lg shadow-md hover:scale-105 transition-transform"
+        className="fixed top-4 left-4 z-50 flex items-center gap-3 p-2 bg-transparent border border-border/30 rounded-lg shadow-md hover:scale-105 transition-transform"
       >
-        <img src={redotPayCard} alt="RedotPay" className="w-10 h-10 object-contain rounded" />
+        <img src={redotPayCard} alt="RedotPay" className="w-10 h-10 object-contain rounded bg-transparent" />
         <span className="hidden sm:inline font-semibold text-sm">RedotPay</span>
       </a>
 
