@@ -69,7 +69,7 @@
     overflow: hidden;
     pointer-events: none;
     display: block;
-    background: white;
+    background: transparent;
   }
 
   .bg-video-iframe {
