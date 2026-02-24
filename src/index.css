@@ -69,7 +69,7 @@
     overflow: hidden;
     pointer-events: none;
     display: block;
-    background: white;
+    background: transparent;
   }
 
   .bg-video-iframe {
@@ -107,9 +107,9 @@
   }
 
   .glass {
-    background: hsl(var(--card) / 0.6);
+    background: transparent;
     backdrop-filter: blur(20px);
-    border: 1px solid hsl(var(--border) / 0.5);
+    border: 1px solid hsl(var(--border) / 0.15);
   }
 
   .cyber-grid {
