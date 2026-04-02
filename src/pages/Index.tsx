@@ -60,15 +60,14 @@ const Index = () => {
     { href: "https://cryptobubbles.net/", name: "Crypto Bubbles", description: t("bubblesDesc"), icon: <CryptoBubblesIcon className="w-6 h-6" /> },
   ];
 
+  const featuredProject = {
+    href: "https://dexscreener.com/solana/8TkW3qJckBmg87JxUVjRuEWkhVJqFJ5LgsWai2uCUgMR",
+    name: "SHITOSHI TOKEN",
+    iconUrl: "https://i.ibb.co/RTfDzWPR/favicon.png",
+  };
+
   const projects = [
     { href: "https://", name: "DANIALOO MT5", description: "تداول الذهب و الفضة مع وكيلنا الموثوق و المعتمد MT5", iconUrl: "https://i.ibb.co/qL3k64mk/48Ry-X.jpg" },
-    {
-      href: "https://dexscreener.com/solana/8TkW3qJckBmg87JxUVjRuEWkhVJqFJ5LgsWai2uCUgMR",
-      name: "SHITOSHI TOKEN",
-      description: "",
-      iconUrl: "https://i.ibb.co/RTfDzWPR/favicon.png",
-      plainImageOnly: true,
-    },
     { href: "https://100tokensacademy.site/", name: "100Academy", description: "المنصة الرئيسية لعملة 100", iconUrl: "https://i.ibb.co/W4Z1tF48/Academy-Logo.png" },
   ];
 
@@ -180,32 +179,33 @@ const Index = () => {
           <h2 className="font-display text-4xl font-semibold text-center mb-8 text-foreground">
             <span className="text-secondary glow-text-pink">{t("myProjects")}</span>
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
-            {projects.map((project) =>
-              project.plainImageOnly ? (
-                <a
-                  key={project.name}
-                  href={project.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex justify-center items-center"
-                >
-                  <img
-                    src={project.iconUrl}
-                    alt={project.name}
-                    className="w-28 h-28 md:w-36 md:h-36 object-contain"
-                  />
-                </a>
-              ) : (
-                <PartnerCard
-                  key={project.name}
-                  {...project}
-                  imageClassName="w-28 h-28 md:w-32 md:h-32 object-cover rounded-xl"
-                  descriptionClassName="text-black text-sm mt-1"
-                />
-              )
-            )}
+          <div className="flex justify-center mb-8">
+            <a
+              href={featuredProject.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center gap-4 p-6 bg-background/80 border border-border/40 rounded-[2rem] shadow-2xl hover:shadow-primary/30 transition-shadow duration-300"
+            >
+              <img
+                src={featuredProject.iconUrl}
+                alt={featuredProject.name}
+                className="w-40 h-40 md:w-52 md:h-52 object-contain"
+              />
+              <span className="text-2xl md:text-3xl font-semibold tracking-wide text-foreground">
+                {featuredProject.name}
+              </span>
+            </a>
           </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
+            {projects.map((project) => (
+              <PartnerCard
+                key={project.name}
+                {...project}
+                imageClassName="w-28 h-28 md:w-32 md:h-32 object-cover rounded-xl"
+                descriptionClassName="text-black text-sm mt-1"
+              />
+            ))}
           </div>
         </section>
 
