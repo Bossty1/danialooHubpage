@@ -64,7 +64,7 @@ const Index = () => {
     { href: "https://", name: "DANIALOO MT5", description: "تداول الذهب و الفضة مع وكيلنا الموثوق و المعتمد MT5", iconUrl: "https://i.ibb.co/qL3k64mk/48Ry-X.jpg" },
     {
       href: "https://dexscreener.com/solana/8TkW3qJckBmg87JxUVjRuEWkhVJqFJ5LgsWai2uCUgMR",
-      name: "Dexscreener",
+      name: "SHITOSHI TOKEN",
       description: "",
       iconUrl: "https://i.ibb.co/RTfDzWPR/favicon.png",
       plainImageOnly: true,
