@@ -61,6 +61,7 @@ const Index = () => {
   ];
 
   const projects = [
+    { href: "https://", name: "DANIALOO MT5", description: "تداول الذهب و الفضة مع وكيلنا الموثوق و المعتمد MT5", iconUrl: "https://i.ibb.co/qL3k64mk/48Ry-X.jpg" },
     {
       href: "https://dexscreener.com/solana/8TkW3qJckBmg87JxUVjRuEWkhVJqFJ5LgsWai2uCUgMR",
       name: "Dexscreener",
@@ -69,7 +70,6 @@ const Index = () => {
       plainImageOnly: true,
     },
     { href: "https://100tokensacademy.site/", name: "100Academy", description: "المنصة الرئيسية لعملة 100", iconUrl: "https://i.ibb.co/W4Z1tF48/Academy-Logo.png" },
-    { href: "https://", name: "DANIALOO MT5", description: "تداول الذهب و الفضة مع وكيلنا الموثوق و المعتمد MT5", iconUrl: "https://i.ibb.co/qL3k64mk/48Ry-X.jpg" },
   ];
 
   return (
@@ -193,7 +193,7 @@ const Index = () => {
                   <img
                     src={project.iconUrl}
                     alt={project.name}
-                    className="w-20 h-20 md:w-24 md:h-24 object-contain"
+                    className="w-28 h-28 md:w-36 md:h-36 object-contain"
                   />
                 </a>
               ) : (
@@ -205,6 +205,7 @@ const Index = () => {
                 />
               )
             )}
+          </div>
           </div>
         </section>
 
