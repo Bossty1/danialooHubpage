@@ -46,11 +46,10 @@ const Index = () => {
   ];
 
   const partners = [
+    { href: "https://accounts.binance.com/ar/register?ref=YL1K0MEE", name: "Binance", description: t("binanceDesc"), iconUrl: partnerLogos.binance },
+    { href: "https://www.coinw.com/register?r=26625869", name: "CoinW", description: t("academyDesc"), iconUrl: partnerLogos.coinW },
     { href: "https://www.mexc.com/acquisition/custom-sign-up?shareCode=mexc-2rEsx", name: "MEXC", description: t("mexcDesc"), iconUrl: partnerLogos.mexc },
     { href: "https://www.gate.com/signup?ref_type=103&ref=UQARAF9X", name: "Gate.io", description: t("gateDesc"), iconUrl: partnerLogos.gate },
-    { href: "https://accounts.binance.com/ar/register?ref=YL1K0MEE", name: "Binance", description: t("binanceDesc"), iconUrl: partnerLogos.binance },
-    { href: "https://www.coinw.com/register?r=26625869", name: "CoinW", description: t("academyDesc"), icon: <PaidCoursesIcon className="w-6 h-6" /> },
-    { href: "https://bnb-smart-contract-builder.vercel.app/", name: "BNB Smart Contract", description: t("smartContractDesc"), icon: <SmartContractIcon className="w-6 h-6" /> },
   ];
 
   const tools = [
