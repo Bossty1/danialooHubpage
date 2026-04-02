@@ -61,6 +61,13 @@ const Index = () => {
   ];
 
   const projects = [
+    {
+      href: "https://dexscreener.com/solana/8TkW3qJckBmg87JxUVjRuEWkhVJqFJ5LgsWai2uCUgMR",
+      name: "Dexscreener",
+      description: "",
+      iconUrl: "https://i.ibb.co/RTfDzWPR/favicon.png",
+      plainImageOnly: true,
+    },
     { href: "https://100tokensacademy.site/", name: "100Academy", description: "المنصة الرئيسية لعملة 100", iconUrl: "https://i.ibb.co/W4Z1tF48/Academy-Logo.png" },
     { href: "https://", name: "DANIALOO MT5", description: "تداول الذهب و الفضة مع وكيلنا الموثوق و المعتمد MT5", iconUrl: "https://i.ibb.co/qL3k64mk/48Ry-X.jpg" },
   ];
@@ -174,14 +181,30 @@ const Index = () => {
             <span className="text-secondary glow-text-pink">{t("myProjects")}</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
-            {projects.map((project) => (
-              <PartnerCard
-                key={project.name}
-                {...project}
-                imageClassName="w-28 h-28 md:w-32 md:h-32 object-cover rounded-xl"
-                descriptionClassName="text-black text-sm mt-1"
-              />
-            ))}
+            {projects.map((project) =>
+              project.plainImageOnly ? (
+                <a
+                  key={project.name}
+                  href={project.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex justify-center items-center"
+                >
+                  <img
+                    src={project.iconUrl}
+                    alt={project.name}
+                    className="w-20 h-20 md:w-24 md:h-24 object-contain"
+                  />
+                </a>
+              ) : (
+                <PartnerCard
+                  key={project.name}
+                  {...project}
+                  imageClassName="w-28 h-28 md:w-32 md:h-32 object-cover rounded-xl"
+                  descriptionClassName="text-black text-sm mt-1"
+                />
+              )
+            )}
           </div>
         </section>
 
