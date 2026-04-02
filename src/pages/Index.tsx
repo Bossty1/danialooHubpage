@@ -26,7 +26,7 @@ const partnerLogos = {
   mexc: "https://foldr.space/f/H6ck3TiG876nApvS/mexc-logo-png.png",
   gate: "https://i.ibb.co/H3ZZTMN/MEXC-Logo-Mark-Blue.png",
   binance: "https://cryptologos.cc/logos/binance-coin-bnb-logo.png",
-  academy: "https://100tokensacademy.site/favicon.ico",
+  coinW: "https://i.ibb.co/qMTb1SpT/logo-home1.png",
   smartContract: "",
 };
 
@@ -49,7 +49,7 @@ const Index = () => {
     { href: "https://www.mexc.com/acquisition/custom-sign-up?shareCode=mexc-2rEsx", name: "MEXC", description: t("mexcDesc"), iconUrl: partnerLogos.mexc },
     { href: "https://www.gate.com/signup?ref_type=103&ref=UQARAF9X", name: "Gate.io", description: t("gateDesc"), iconUrl: partnerLogos.gate },
     { href: "https://accounts.binance.com/ar/register?ref=YL1K0MEE", name: "Binance", description: t("binanceDesc"), iconUrl: partnerLogos.binance },
-    { href: "https://100tokensacademy.site/", name: "100 Tokens Academy", description: t("academyDesc"), icon: <PaidCoursesIcon className="w-6 h-6" /> },
+    { href: "https://www.coinw.com/register?r=26625869", name: "CoinW", description: t("academyDesc"), icon: <PaidCoursesIcon className="w-6 h-6" /> },
     { href: "https://bnb-smart-contract-builder.vercel.app/", name: "BNB Smart Contract", description: t("smartContractDesc"), icon: <SmartContractIcon className="w-6 h-6" /> },
   ];
 
