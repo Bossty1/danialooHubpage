@@ -50,6 +50,7 @@ const Index = () => {
     { href: "https://www.coinw.com/register?r=26625869", name: "CoinW", description: t("academyDesc"), iconUrl: partnerLogos.coinW },
     { href: "https://www.mexc.com/acquisition/custom-sign-up?shareCode=mexc-2rEsx", name: "MEXC", description: t("mexcDesc"), iconUrl: partnerLogos.mexc },
     { href: "https://www.gate.com/signup?ref_type=103&ref=UQARAF9X", name: "Gate.io", description: t("gateDesc"), iconUrl: partnerLogos.gate },
+    { href: "https://", name: "DANIALOO MT5", description: "تداول الذهب و الفضة مع وكيلنا الموثوق و المعتمد MT5", iconUrl: "https://i.ibb.co/qL3k64mk/48Ry-X.jpg" },
   ];
 
   const tools = [
