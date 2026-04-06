@@ -65,6 +65,11 @@ const Index = () => {
     name: "SHITOSHI TOKEN",
     iconUrl: "https://i.ibb.co/RTfDzWPR/favicon.png",
   };
+    const featuredProject = {
+    href: "https://dexscreener.com/solana/8TkW3qJckBmg87JxUVjRuEWkhVJqFJ5LgsWai2uCUgMR",
+    name: "SHITOSHI TOKEN",
+    iconUrl: "https://i.ibb.co/RTfDzWPR/favicon.png",
+  };
 
   const projects = [
     { href: "https://100tokensacademy.site/", name: "100Academy", description: "المنصة الرئيسية لعملة 100", iconUrl: "https://i.ibb.co/W4Z1tF48/Academy-Logo.png" },
