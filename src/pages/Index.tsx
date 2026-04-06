@@ -67,7 +67,7 @@ const Index = () => {
   };
     const featuredProject = {
     href: "https://dexscreener.com/solana/8TkW3qJckBmg87JxUVjRuEWkhVJqFJ5LgsWai2uCUgMR",
-    name: "SHITOSHI TOKEN",
+    name: "SHITOSHI",
     iconUrl: "https://i.ibb.co/RTfDzWPR/favicon.png",
   };
 
