@@ -63,12 +63,12 @@ const Index = () => {
   const featuredProject = {
     href: "https://danialoo.online/",
     name: "DANIALOO TOKEN",
-    iconUrl: "000000000",
+    iconUrl: "https://i.ibb.co/1Y1LkKT9/3232323.png",
   };
 
   const projects = [
     { href: "https://100tokensacademy.site/", name: "100Academy", description: "المنصة الرئيسية لعملة 100", iconUrl: "https://i.ibb.co/W4Z1tF48/Academy-Logo.png" },
-    { href: "DANIALOO.COM", name: "DANALOO TOKEN", description: "عملة DANIALOO على سولانا", iconUrl: "000000000" },
+    { href: "DANIALOO.COM", name: "DANALOO TOKEN", description: "عملة DANIALOO على سولانا", iconUrl: "https://i.ibb.co/1Y1LkKT9/3232323.png" },
   ];
 
   return (
