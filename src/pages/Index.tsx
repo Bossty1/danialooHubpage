@@ -61,14 +61,14 @@ const Index = () => {
   ];
 
   const featuredProject = {
-    href: "https://dexscreener.com/solana/8TkW3qJckBmg87JxUVjRuEWkhVJqFJ5LgsWai2uCUgMR",
-    name: "SHITOSHI TOKEN",
-    iconUrl: "https://i.ibb.co/RTfDzWPR/favicon.png",
+    href: "https://danialoo.online/",
+    name: "DANIALOO TOKEN",
+    iconUrl: "000000000",
   };
 
   const projects = [
     { href: "https://100tokensacademy.site/", name: "100Academy", description: "المنصة الرئيسية لعملة 100", iconUrl: "https://i.ibb.co/W4Z1tF48/Academy-Logo.png" },
-    { href: "https://dexscreener.com/solana/8TkW3qJckBmg87JxUVjRuEWkhVJqFJ5LgsWai2uCUgMR", name: "SHITOSHI TOKEN", description: "عملة SHITOSHI على سولانا", iconUrl: "https://i.ibb.co/RTfDzWPR/favicon.png" },
+    { href: "DANIALOO.COM", name: "DANALOO TOKEN", description: "عملة DANIALOO على سولانا", iconUrl: "000000000" },
   ];
 
   return (
