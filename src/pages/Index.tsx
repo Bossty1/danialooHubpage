@@ -92,6 +92,17 @@ const Index = () => {
         <span className="hidden sm:inline font-semibold text-sm">RedotPay</span>
       </a>
 
+      {/* Fixed Bybit icon top-right */}
+      <a
+        href="https://www.bybit.com/cards/?ref=ZDBA8ZL&source=applet_invite"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed top-4 right-4 z-50 flex items-center gap-3 p-2 bg-transparent border border-border/30 rounded-lg shadow-md hover:scale-105 transition-transform"
+      >
+        <img src="https://i.ibb.co/LXgd2qGy/card-1-global-b96302cf95fd80a71a26.png" alt="Bybit" className="w-10 h-10 object-contain rounded bg-transparent" />
+        <span className="hidden sm:inline font-semibold text-sm">Bybit</span>
+      </a>
+
       {/* Background effects */}
       <div className="fixed inset-0 pointer-events-none">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-[150px] animate-pulse-glow" />
@@ -241,7 +252,7 @@ const Index = () => {
         {/* Payment Platform */}
         <section className="animate-fade-in" style={{ animationDelay: "0.8s" }}>
           <h2 className="sr-only">{t("paymentSolutions")}</h2>
-          <div className="flex justify-center">
+          <div className="flex justify-center gap-6">
             <a
               href="https://wap.redotpay.com/en/invite/?referralId=heb8p"
               target="_blank"
@@ -253,6 +264,18 @@ const Index = () => {
                 <span className="absolute -top-3 -left-3 text-xs md:text-sm font-semibold text-white bg-secondary/90 px-2 py-1 rounded">{t("paymentSolutions")}</span>
               </div>
               <span className="font-bold">RedotPay</span>
+            </a>
+            <a
+              href="https://www.bybit.com/cards/?ref=ZDBA8ZL&source=applet_invite"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-cyber-pink flex items-center gap-4 text-xl px-10 py-5 relative"
+            >
+              <div className="relative">
+                <img src="https://i.ibb.co/LXgd2qGy/card-1-global-b96302cf95fd80a71a26.png" alt="Bybit" className="w-16 h-10 object-contain rounded" />
+                <span className="absolute -top-3 -left-3 text-xs md:text-sm font-semibold text-white bg-secondary/90 px-2 py-1 rounded">{t("paymentSolutions")}</span>
+              </div>
+              <span className="font-bold">Bybit</span>
             </a>
           </div>
         </section>
