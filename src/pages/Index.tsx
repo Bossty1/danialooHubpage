@@ -98,8 +98,8 @@ const Index = () => {
           rel="noopener noreferrer"
           className="flex items-center gap-3 p-2 bg-transparent border border-border/30 rounded-lg shadow-md hover:scale-105 transition-transform"
         >
-          <img src="https://i.ibb.co/LXgd2qGy/card-1-global-b96302cf95fd80a71a26.png" alt="Bybit" className="w-10 h-10 object-contain rounded bg-transparent" />
-          <span className="hidden sm:inline font-semibold text-sm">Bybit</span>
+          <img src="https://i.ibb.co/LXgd2qGy/card-1-global-b96302cf95fd80a71a26.png" alt="Bybit payment" className="w-10 h-10 object-contain rounded bg-transparent" />
+          <span className="hidden sm:inline font-semibold text-sm">Bybit payment</span>
         </a>
       </div>
 
@@ -275,7 +275,7 @@ const Index = () => {
                 <img src="https://i.ibb.co/LXgd2qGy/card-1-global-b96302cf95fd80a71a26.png" alt="Bybit" className="w-16 h-10 object-contain rounded" />
                 <span className="absolute -top-3 -left-3 text-xs md:text-sm font-semibold text-white bg-secondary/90 px-2 py-1 rounded">{t("paymentSolutions")}</span>
               </div>
-              <span className="font-bold">Bybit</span>
+              <span className="font-bold">Bybit payment</span>
             </a>
           </div>
         </section>
