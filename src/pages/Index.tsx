@@ -81,27 +81,27 @@ const Index = () => {
       {/* Language Switcher */}
       <LanguageSwitcher />
 
-      {/* Fixed RedotPay icon top-left */}
-      <a
-        href="https://wap.redotpay.com/en/invite/?referralId=heb8p"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed top-4 left-4 z-50 flex items-center gap-3 p-2 bg-transparent border border-border/30 rounded-lg shadow-md hover:scale-105 transition-transform"
-      >
-        <img src={redotPayCard} alt="RedotPay" className="w-10 h-10 object-contain rounded bg-transparent" />
-        <span className="hidden sm:inline font-semibold text-sm">RedotPay</span>
-      </a>
-
-      {/* Fixed Bybit icon top-right */}
-      <a
-        href="https://www.bybit.com/cards/?ref=ZDBA8ZL&source=applet_invite"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed top-4 right-4 z-50 flex items-center gap-3 p-2 bg-transparent border border-border/30 rounded-lg shadow-md hover:scale-105 transition-transform"
-      >
-        <img src="https://i.ibb.co/LXgd2qGy/card-1-global-b96302cf95fd80a71a26.png" alt="Bybit" className="w-10 h-10 object-contain rounded bg-transparent" />
-        <span className="hidden sm:inline font-semibold text-sm">Bybit</span>
-      </a>
+      {/* Fixed payment icons top-left */}
+      <div className="fixed top-4 left-4 z-50 flex items-center gap-4">
+        <a
+          href="https://wap.redotpay.com/en/invite/?referralId=heb8p"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 p-2 bg-transparent border border-border/30 rounded-lg shadow-md hover:scale-105 transition-transform"
+        >
+          <img src={redotPayCard} alt="RedotPay" className="w-10 h-10 object-contain rounded bg-transparent" />
+          <span className="hidden sm:inline font-semibold text-sm">RedotPay</span>
+        </a>
+        <a
+          href="https://www.bybit.com/cards/?ref=ZDBA8ZL&source=applet_invite"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 p-2 bg-transparent border border-border/30 rounded-lg shadow-md hover:scale-105 transition-transform"
+        >
+          <img src="https://i.ibb.co/LXgd2qGy/card-1-global-b96302cf95fd80a71a26.png" alt="Bybit" className="w-10 h-10 object-contain rounded bg-transparent" />
+          <span className="hidden sm:inline font-semibold text-sm">Bybit</span>
+        </a>
+      </div>
 
       {/* Background effects */}
       <div className="fixed inset-0 pointer-events-none">
