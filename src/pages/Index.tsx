@@ -82,7 +82,7 @@ const Index = () => {
       <LanguageSwitcher />
 
       {/* Fixed payment icons top-left */}
-      <div className="fixed top-4 left-4 z-50 flex items-center gap-4">
+      <div className="fixed top-4 left-4 z-50 flex flex-col items-center gap-2">
         <a
           href="https://wap.redotpay.com/en/invite/?referralId=heb8p"
           target="_blank"
