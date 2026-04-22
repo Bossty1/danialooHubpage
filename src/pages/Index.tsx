@@ -23,9 +23,9 @@ import {
 
 // Partner logo URLs
 const partnerLogos = {
-  mexc: "https://foldr.space/f/H6ck3TiG876nApvS/mexc-logo-png.png",
+  mexc: "https://i.ibb.co/WWfbT9YS/mexc33.png",
   gate: "https://i.ibb.co/H3ZZTMN/MEXC-Logo-Mark-Blue.png",
-  binance: "https://i.ibb.co/p6dL20jb/images.png",
+  binance: "https://i.ibb.co/PZ4wR4yh/bbnvce.jpg",
   coinW: "https://i.ibb.co/qMTb1SpT/logo-home1.png",
   smartContract: "",
 };
