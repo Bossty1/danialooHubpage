@@ -36,7 +36,7 @@ const Index = () => {
   const socialLinks = [
     { href: "https://www.tiktok.com/@danialoo5", icon: <TikTokIcon className="w-6 h-6" />, label: "TikTok", color: "secondary" as const },
     { href: "https://youtube.com/@danialoocrypto", icon: <YouTubeIcon className="w-6 h-6" />, label: "YouTube", color: "primary" as const },
-    { href: "https://t.me/danialoocrypto", icon: <TelegramIcon className="w-6 h-6" />, label: "Telegram", color: "primary" as const },
+    { href: "https://t.me/CryptoDigitalGate", icon: <TelegramIcon className="w-6 h-6" />, label: "Telegram", color: "primary" as const },
   ];
 
   const comingSoonLinks = [
