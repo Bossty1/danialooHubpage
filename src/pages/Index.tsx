@@ -284,7 +284,17 @@ const Index = () => {
         <footer className="mt-20 pt-8 border-t border-border/30 text-center">
           <div className="flex flex-wrap justify-center gap-3 mb-4">
             {socialLinks.map((link) => (
-              <SocialLink key={link.label} {...link} />
+              <a
+                key={link.label}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-11 w-11 items-center justify-center rounded-full border border-border/40 bg-background/80 text-foreground transition hover:border-primary hover:text-primary hover:shadow-[0_0_15px_rgba(79,70,229,0.25)]"
+                aria-label={link.label}
+                title={link.label}
+              >
+                <span className="text-xl">{link.icon}</span>
+              </a>
             ))}
           </div>
           <p className="text-muted-foreground text-sm">
