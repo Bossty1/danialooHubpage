@@ -282,6 +282,11 @@ const Index = () => {
 
         {/* Footer */}
         <footer className="mt-20 pt-8 border-t border-border/30 text-center">
+          <div className="flex flex-wrap justify-center gap-3 mb-4">
+            {socialLinks.map((link) => (
+              <SocialLink key={link.label} {...link} />
+            ))}
+          </div>
           <p className="text-muted-foreground text-sm">
             © 2025 Danialoo Crypto. {t("allRightsReserved")}.
           </p>
