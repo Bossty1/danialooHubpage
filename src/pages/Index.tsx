@@ -36,7 +36,7 @@ const Index = () => {
   const socialLinks = [
     { href: "https://www.tiktok.com/@danialoo5", icon: <TikTokIcon className="w-6 h-6" />, label: "TikTok", color: "secondary" as const },
     { href: "https://youtube.com/@danialoocrypto", icon: <YouTubeIcon className="w-6 h-6" />, label: "YouTube", color: "primary" as const },
-    { href: "https://t.me/CryptoDigitalGate", icon: <TelegramIcon className="w-6 h-6" />, label: "Telegram", color: "primary" as const },
+    { href: "https://t.me/Danialoo5Lab", icon: <TelegramIcon className="w-6 h-6" />, label: "Telegram", color: "primary" as const },
   ];
 
   const comingSoonLinks = [
@@ -48,6 +48,7 @@ const Index = () => {
   const partners = [
     { href: "https://accounts.binance.com/ar/register?ref=YL1K0MEE", name: "Binance", description: t("binanceDesc"), iconUrl: partnerLogos.binance },
     { href: "https://www.coinw.com/register?r=26625869", name: "CoinW", description: t("academyDesc"), iconUrl: partnerLogos.coinW },
+    { href: "https://www.bybit.com/", name: "Bybit", description: t("bybitDesc"), iconUrl: "https://i.ibb.co/dwydRxvR/images.jpg" },
     { href: "https://www.mexc.com/acquisition/custom-sign-up?shareCode=mexc-2rEsx", name: "MEXC", description: t("mexcDesc"), iconUrl: partnerLogos.mexc },
     { href: "https://www.gate.com/signup?ref_type=103&ref=UQARAF9X", name: "Gate.io", description: t("gateDesc"), iconUrl: partnerLogos.gate },
     { href: "https://", name: "DANIALOO MT5", description: "تداول الذهب و الفضة مع وكيلنا الموثوق و المعتمد MT5", iconUrl: "https://i.ibb.co/qL3k64mk/48Ry-X.jpg" },

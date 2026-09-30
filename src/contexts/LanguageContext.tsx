@@ -22,6 +22,7 @@ const translations: Translations = {
   mexcDesc: { ar: "منصة تداول عالمية", en: "Global crypto exchange" },
   gateDesc: { ar: "منصة تداول آمنة", en: "Secure crypto trading platform" },
   binanceDesc: { ar: "أكبر منصة تداول في العالم", en: "World's largest crypto exchange" },
+  bybitDesc: { ar: "منصة تداول عالمية للعملات الرقمية", en: "Global crypto exchange" },
   academyDesc: { ar: "تعلم استراتيجيات تداول الكريبتو", en: "Learn crypto trading strategies" },
   smartContractDesc: { ar: "بناء العقود الذكية بسهولة", en: "Build smart contracts easily" },
   solCleanerDesc: { ar: "تنظيف محفظة سولانا", en: "Clean up your Solana wallet" },
