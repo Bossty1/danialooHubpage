@@ -27,6 +27,7 @@ const partnerLogos = {
   gate: "https://i.ibb.co/H3ZZTMN/MEXC-Logo-Mark-Blue.png",
   binance: "https://i.ibb.co/PZ4wR4yh/bbnvce.jpg",
   coinW: "https://i.ibb.co/qMTb1SpT/logo-home1.png",
+  bybit: "https://i.ibb.co/dwydRxvR/images.jpg",
   smartContract: "",
 };
 
@@ -36,7 +37,7 @@ const Index = () => {
   const socialLinks = [
     { href: "https://www.tiktok.com/@danialoo5", icon: <TikTokIcon className="w-6 h-6" />, label: "TikTok", color: "secondary" as const },
     { href: "https://youtube.com/@danialoocrypto", icon: <YouTubeIcon className="w-6 h-6" />, label: "YouTube", color: "primary" as const },
-    { href: "https://t.me/CryptoDigitalGate", icon: <TelegramIcon className="w-6 h-6" />, label: "Telegram", color: "primary" as const },
+    { href: "https://t.me/Danialoo5Lab", icon: <TelegramIcon className="w-6 h-6" />, label: "Telegram", color: "primary" as const },
   ];
 
   const comingSoonLinks = [
@@ -50,6 +51,7 @@ const Index = () => {
     { href: "https://www.coinw.com/register?r=26625869", name: "CoinW", description: t("academyDesc"), iconUrl: partnerLogos.coinW },
     { href: "https://www.mexc.com/acquisition/custom-sign-up?shareCode=mexc-2rEsx", name: "MEXC", description: t("mexcDesc"), iconUrl: partnerLogos.mexc },
     { href: "https://www.gate.com/signup?ref_type=103&ref=UQARAF9X", name: "Gate.io", description: t("gateDesc"), iconUrl: partnerLogos.gate },
+    { href: "https://partner.bybit.com/b/166528", name: "Bybit", description: t("bybitDesc"), iconUrl: partnerLogos.bybit },
     { href: "https://", name: "DANIALOO MT5", description: "تداول الذهب و الفضة مع وكيلنا الموثوق و المعتمد MT5", iconUrl: "https://i.ibb.co/qL3k64mk/48Ry-X.jpg" },
   ];
 
@@ -144,7 +146,7 @@ const Index = () => {
         <section className="mb-16 animate-fade-in" style={{ animationDelay: "0.1s" }}>
           <div className="flex justify-center">
             <a
-              href="https://t.me/DanialooLab"
+              href="https://t.me/Danialoo5Lab"
               target="_blank"
               rel="noopener noreferrer"
               className="card-cyber flex flex-col items-center gap-4 p-8 max-w-md w-full text-center group"
